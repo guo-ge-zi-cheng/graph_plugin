@@ -1,0 +1,9 @@
+{
+  "name": "graph-analysis",
+  "version": "0.1.0",
+  "description": "Build, validate, analyze, and share knowledge graphs using your agent's own model.",
+  "author": {
+    "name": "guo-ge-zi-cheng"
+  },
+  "repository": "https://github.com/guo-ge-zi-cheng/graph_plugin"
+}
