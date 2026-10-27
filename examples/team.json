@@ -1,0 +1,12 @@
+{
+  "nodes": [
+    { "id": "alice", "label": "Alice", "type": "person", "properties": {} },
+    { "id": "bob", "label": "Bob", "type": "person", "properties": {} },
+    { "id": "acme", "label": "Acme", "type": "organization", "properties": {} }
+  ],
+  "edges": [
+    { "source": "alice", "target": "acme", "relation": "works at" },
+    { "source": "bob", "target": "acme", "relation": "works at" },
+    { "source": "alice", "target": "bob", "relation": "manages" }
+  ]
+}
