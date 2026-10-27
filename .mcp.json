@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "graph-analysis": {
+      "command": "uv",
+      "args": ["run", "--directory", "${CLAUDE_PLUGIN_ROOT}", "--locked", "graph-analysis", "mcp"]
+    }
+  }
+}

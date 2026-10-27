@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+!**/.env.example
+node_modules/
+dist/
+build/
+*.egg-info/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.graph-data/
+*.log
+.DS_Store

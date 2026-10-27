@@ -1,0 +1,16 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "graph-analysis",
+  "version": "0.1.0",
+  "description": "Build, validate, analyze, and share knowledge graphs using your agent's own model.",
+  "author": {
+    "name": "guo-ge-zi-cheng"
+  },
+  "keywords": [
+    "graphs",
+    "knowledge-graph",
+    "mcp",
+    "skills"
+  ],
+  "repository": "https://github.com/guo-ge-zi-cheng/graph_plugin"
+}

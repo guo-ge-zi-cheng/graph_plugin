@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "graph-analysis-module"
+version = "0.1.0"
+description = "Local graph tools, MCP server, agent skill, and an optional LLM-powered graph editor"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.10,<3",
+    "filelock>=3.16,<4",
+    "networkx>=3.4,<4",
+    "mcp>=1.26,<2",
+]
+
+[project.optional-dependencies]
+web = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1", "openai>=1.60,<3", "python-dotenv>=1,<2"]
+dev = ["pytest>=8,<10", "httpx>=0.27,<1"]
+
+[project.urls]
+Repository = "https://github.com/guo-ge-zi-cheng/graph_plugin"
+
+[project.scripts]
+graph-analysis = "graph_analysis.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["graph_analysis*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests", "backend/tests"]
