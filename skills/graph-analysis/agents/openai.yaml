@@ -1,0 +1,4 @@
+interface:
+  display_name: "Graph Analysis"
+  short_description: "Build, inspect, and share knowledge graphs with your agent"
+  default_prompt: "Use $graph-analysis to turn this material into a validated knowledge graph."
